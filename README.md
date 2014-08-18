@@ -97,9 +97,13 @@ Code helpers
 
 Demo 
 
+![1]
+
 * Custom string formatting
 
 Demo
+
+![2]
 
 What to read
 ------------
@@ -115,3 +119,5 @@ http://www.jetbrains.com/resharper/webhelp/Reference__Code_Annotation_Attributes
 
 
 
+[1]: https://raw.githubusercontent.com/asizikov/AP.ResharperAnnotationsDemo/master/Annotations.Demo/Img/PathReferenceScreenshot.png
+[2]: https://raw.githubusercontent.com/asizikov/AP.ResharperAnnotationsDemo/master/Annotations.Demo/Img/StringFormatScreenshot.png
