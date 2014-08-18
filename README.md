@@ -94,9 +94,12 @@ Code helpers
 ------------
 
 * Resource navigation
+
+Demo 
+
 * Custom string formatting
 
-
+Demo
 
 What to read
 ------------
