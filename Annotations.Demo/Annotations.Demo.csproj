@@ -49,6 +49,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="02_PureDemo.cs" />
     <Compile Include="04_PublicApi.cs" />
+    <Compile Include="06_StringFormatDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
