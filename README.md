@@ -115,6 +115,7 @@ http://www.jetbrains.com/resharper/webhelp/Reference__Code_Annotation_Attributes
 
 * Contracts http://blog.jetbrains.com/dotnet/2012/08/15/contract-annotations-in-resharper-7
 * http://stackoverflow.com/questions/24805040/how-to-ignore-reference-to-jetbrains-annotations-dll-in-nodatime-nuget-package-x
+* AspMvc Annotations http://blog.jetbrains.com/dotnet/2011/12/07/providing-intellisense-navigation-and-more-for-custom-helpers-in-aspnet-mvc/
 
 
 
