@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using JetBrains.Annotations;
 using NUnit.Framework;
 
 namespace Annotations.Demo
@@ -15,15 +16,25 @@ namespace Annotations.Demo
             var reverse = ContractTest.Reverse("haha");
             if (reverse == null)
             {
-                // never goes here
+                //never goes here
             }
             Assert.AreEqual("ahah", reverse);
         }
     }
 
 
+
+
+
+
+
+
+
+
     public static class ContractTest
     {
+//        [ContractAnnotation("str:null => null")]
+//        [ContractAnnotation("str:notnull=>notnull")]
 //        [ContractAnnotation("str:null => null;str:notnull=>notnull")]
         public static string Reverse(string str)
         {

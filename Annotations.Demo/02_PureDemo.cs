@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace Annotations.Demo
 {
@@ -6,17 +7,32 @@ namespace Annotations.Demo
     public class PureDemo
     {
         [Test]
-        public void PureDemoTest()
+        public void PureDemoTestSuccess()
         {
             var myInt = new MyInt(10);
             Assert.AreEqual(10, myInt.Value);
+        }
 
-
-
+        [Test]
+        public void PureDemoTestFail()
+        {
+            var myInt = new MyInt(10);
             myInt.Add(20);
             Assert.AreEqual(30, myInt.Value);
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     public class MyInt
